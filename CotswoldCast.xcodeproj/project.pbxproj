@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F6718372558453B00304186 /* BrumcastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6718362558453B00304186 /* BrumcastApp.swift */; };
+		8F6718372558453B00304186 /* CotswoldCastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6718362558453B00304186 /* CotswoldCastApp.swift */; };
 		8F6718392558453B00304186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6718382558453B00304186 /* ContentView.swift */; };
 		8F67183B2558453C00304186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F67183A2558453C00304186 /* Assets.xcassets */; };
 		8F67183E2558453C00304186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F67183D2558453C00304186 /* Preview Assets.xcassets */; };
-		8F6718492558453C00304186 /* BrumcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6718482558453C00304186 /* BrumcastTests.swift */; };
-		8F6718542558453C00304186 /* BrumcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6718532558453C00304186 /* BrumcastUITests.swift */; };
+		8F6718492558453C00304186 /* CotswoldCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6718482558453C00304186 /* CotswoldCastTests.swift */; };
+		8F6718692558457D00304186 /* WeatherReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6718682558457D00304186 /* WeatherReader.swift */; };
+		8F67188B25584E1B00304186 /* WeatherPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F67188A25584E1B00304186 /* WeatherPeriod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,28 +24,21 @@
 			remoteGlobalIDString = 8F6718322558453B00304186;
 			remoteInfo = Brumcast;
 		};
-		8F6718502558453C00304186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8F67182B2558453B00304186 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8F6718322558453B00304186;
-			remoteInfo = Brumcast;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8F6718332558453B00304186 /* Brumcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brumcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F6718362558453B00304186 /* BrumcastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrumcastApp.swift; sourceTree = "<group>"; };
+		8F6718332558453B00304186 /* CotswoldCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CotswoldCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6718362558453B00304186 /* CotswoldCastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CotswoldCastApp.swift; sourceTree = "<group>"; };
 		8F6718382558453B00304186 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8F67183A2558453C00304186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F67183D2558453C00304186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F67183F2558453C00304186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F6718442558453C00304186 /* BrumcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrumcastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F6718482558453C00304186 /* BrumcastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrumcastTests.swift; sourceTree = "<group>"; };
+		8F6718442558453C00304186 /* CotswoldCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CotswoldCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6718482558453C00304186 /* CotswoldCastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CotswoldCastTests.swift; sourceTree = "<group>"; };
 		8F67184A2558453C00304186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F67184F2558453C00304186 /* BrumcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrumcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F6718532558453C00304186 /* BrumcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrumcastUITests.swift; sourceTree = "<group>"; };
-		8F6718552558453C00304186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6718682558457D00304186 /* WeatherReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReader.swift; sourceTree = "<group>"; };
+		8F6718892558486800304186 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8F67188A25584E1B00304186 /* WeatherPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPeriod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,22 +56,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F67184C2558453C00304186 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		8F67182A2558453B00304186 = {
 			isa = PBXGroup;
 			children = (
-				8F6718352558453B00304186 /* Brumcast */,
-				8F6718472558453C00304186 /* BrumcastTests */,
-				8F6718522558453C00304186 /* BrumcastUITests */,
+				8F6718352558453B00304186 /* CotswoldCast */,
+				8F6718472558453C00304186 /* CotswoldCastTests */,
 				8F6718342558453B00304186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,23 +71,24 @@
 		8F6718342558453B00304186 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F6718332558453B00304186 /* Brumcast.app */,
-				8F6718442558453C00304186 /* BrumcastTests.xctest */,
-				8F67184F2558453C00304186 /* BrumcastUITests.xctest */,
+				8F6718332558453B00304186 /* CotswoldCast.app */,
+				8F6718442558453C00304186 /* CotswoldCastTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F6718352558453B00304186 /* Brumcast */ = {
+		8F6718352558453B00304186 /* CotswoldCast */ = {
 			isa = PBXGroup;
 			children = (
-				8F6718362558453B00304186 /* BrumcastApp.swift */,
+				8F6718642558454B00304186 /* non UI */,
+				8F6718362558453B00304186 /* CotswoldCastApp.swift */,
 				8F6718382558453B00304186 /* ContentView.swift */,
 				8F67183A2558453C00304186 /* Assets.xcassets */,
 				8F67183F2558453C00304186 /* Info.plist */,
 				8F67183C2558453C00304186 /* Preview Content */,
+				8F6718892558486800304186 /* README.md */,
 			);
-			path = Brumcast;
+			path = CotswoldCast;
 			sourceTree = "<group>";
 		};
 		8F67183C2558453C00304186 /* Preview Content */ = {
@@ -112,30 +99,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8F6718472558453C00304186 /* BrumcastTests */ = {
+		8F6718472558453C00304186 /* CotswoldCastTests */ = {
 			isa = PBXGroup;
 			children = (
-				8F6718482558453C00304186 /* BrumcastTests.swift */,
+				8F6718482558453C00304186 /* CotswoldCastTests.swift */,
 				8F67184A2558453C00304186 /* Info.plist */,
 			);
-			path = BrumcastTests;
+			path = CotswoldCastTests;
 			sourceTree = "<group>";
 		};
-		8F6718522558453C00304186 /* BrumcastUITests */ = {
+		8F6718642558454B00304186 /* non UI */ = {
 			isa = PBXGroup;
 			children = (
-				8F6718532558453C00304186 /* BrumcastUITests.swift */,
-				8F6718552558453C00304186 /* Info.plist */,
+				8F6718682558457D00304186 /* WeatherReader.swift */,
+				8F67188A25584E1B00304186 /* WeatherPeriod.swift */,
 			);
-			path = BrumcastUITests;
+			path = "non UI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F6718322558453B00304186 /* Brumcast */ = {
+		8F6718322558453B00304186 /* CotswoldCast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F6718582558453C00304186 /* Build configuration list for PBXNativeTarget "Brumcast" */;
+			buildConfigurationList = 8F6718582558453C00304186 /* Build configuration list for PBXNativeTarget "CotswoldCast" */;
 			buildPhases = (
 				8F67182F2558453B00304186 /* Sources */,
 				8F6718302558453B00304186 /* Frameworks */,
@@ -145,14 +132,14 @@
 			);
 			dependencies = (
 			);
-			name = Brumcast;
+			name = CotswoldCast;
 			productName = Brumcast;
-			productReference = 8F6718332558453B00304186 /* Brumcast.app */;
+			productReference = 8F6718332558453B00304186 /* CotswoldCast.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8F6718432558453C00304186 /* BrumcastTests */ = {
+		8F6718432558453C00304186 /* CotswoldCastTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F67185B2558453C00304186 /* Build configuration list for PBXNativeTarget "BrumcastTests" */;
+			buildConfigurationList = 8F67185B2558453C00304186 /* Build configuration list for PBXNativeTarget "CotswoldCastTests" */;
 			buildPhases = (
 				8F6718402558453C00304186 /* Sources */,
 				8F6718412558453C00304186 /* Frameworks */,
@@ -163,28 +150,10 @@
 			dependencies = (
 				8F6718462558453C00304186 /* PBXTargetDependency */,
 			);
-			name = BrumcastTests;
+			name = CotswoldCastTests;
 			productName = BrumcastTests;
-			productReference = 8F6718442558453C00304186 /* BrumcastTests.xctest */;
+			productReference = 8F6718442558453C00304186 /* CotswoldCastTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8F67184E2558453C00304186 /* BrumcastUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8F67185E2558453C00304186 /* Build configuration list for PBXNativeTarget "BrumcastUITests" */;
-			buildPhases = (
-				8F67184B2558453C00304186 /* Sources */,
-				8F67184C2558453C00304186 /* Frameworks */,
-				8F67184D2558453C00304186 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8F6718512558453C00304186 /* PBXTargetDependency */,
-			);
-			name = BrumcastUITests;
-			productName = BrumcastUITests;
-			productReference = 8F67184F2558453C00304186 /* BrumcastUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,13 +171,9 @@
 						CreatedOnToolsVersion = 12.0.1;
 						TestTargetID = 8F6718322558453B00304186;
 					};
-					8F67184E2558453C00304186 = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 8F6718322558453B00304186;
-					};
 				};
 			};
-			buildConfigurationList = 8F67182E2558453B00304186 /* Build configuration list for PBXProject "Brumcast" */;
+			buildConfigurationList = 8F67182E2558453B00304186 /* Build configuration list for PBXProject "CotswoldCast" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +186,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F6718322558453B00304186 /* Brumcast */,
-				8F6718432558453C00304186 /* BrumcastTests */,
-				8F67184E2558453C00304186 /* BrumcastUITests */,
+				8F6718322558453B00304186 /* CotswoldCast */,
+				8F6718432558453C00304186 /* CotswoldCastTests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,13 +209,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F67184D2558453C00304186 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +216,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6718692558457D00304186 /* WeatherReader.swift in Sources */,
+				8F67188B25584E1B00304186 /* WeatherPeriod.swift in Sources */,
 				8F6718392558453B00304186 /* ContentView.swift in Sources */,
-				8F6718372558453B00304186 /* BrumcastApp.swift in Sources */,
+				8F6718372558453B00304186 /* CotswoldCastApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6718492558453C00304186 /* BrumcastTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8F67184B2558453C00304186 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8F6718542558453C00304186 /* BrumcastUITests.swift in Sources */,
+				8F6718492558453C00304186 /* CotswoldCastTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,13 +236,8 @@
 /* Begin PBXTargetDependency section */
 		8F6718462558453C00304186 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8F6718322558453B00304186 /* Brumcast */;
+			target = 8F6718322558453B00304186 /* CotswoldCast */;
 			targetProxy = 8F6718452558453C00304186 /* PBXContainerItemProxy */;
-		};
-		8F6718512558453C00304186 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8F6718322558453B00304186 /* Brumcast */;
-			targetProxy = 8F6718502558453C00304186 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -418,16 +364,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Brumcast/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CotswoldCast/Preview Content\"";
 				DEVELOPMENT_TEAM = SWDC5K54B7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Brumcast/Info.plist;
+				INFOPLIST_FILE = CotswoldCast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.Brumcast;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.CotswoldCast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,16 +386,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Brumcast/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CotswoldCast/Preview Content\"";
 				DEVELOPMENT_TEAM = SWDC5K54B7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Brumcast/Info.plist;
+				INFOPLIST_FILE = CotswoldCast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.Brumcast;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.CotswoldCast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,18 +409,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWDC5K54B7;
-				INFOPLIST_FILE = BrumcastTests/Info.plist;
+				INFOPLIST_FILE = CotswoldCastTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.BrumcastTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.CotswoldCastTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brumcast.app/Brumcast";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CotswoldCast.app/CotswoldCast";
 			};
 			name = Debug;
 		};
@@ -485,65 +431,25 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SWDC5K54B7;
-				INFOPLIST_FILE = BrumcastTests/Info.plist;
+				INFOPLIST_FILE = CotswoldCastTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.BrumcastTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.CotswoldCastTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brumcast.app/Brumcast";
-			};
-			name = Release;
-		};
-		8F67185F2558453C00304186 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SWDC5K54B7;
-				INFOPLIST_FILE = BrumcastUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.BrumcastUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Brumcast;
-			};
-			name = Debug;
-		};
-		8F6718602558453C00304186 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SWDC5K54B7;
-				INFOPLIST_FILE = BrumcastUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.petosoft.BrumcastUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Brumcast;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CotswoldCast.app/CotswoldCast";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F67182E2558453B00304186 /* Build configuration list for PBXProject "Brumcast" */ = {
+		8F67182E2558453B00304186 /* Build configuration list for PBXProject "CotswoldCast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F6718562558453C00304186 /* Debug */,
@@ -552,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F6718582558453C00304186 /* Build configuration list for PBXNativeTarget "Brumcast" */ = {
+		8F6718582558453C00304186 /* Build configuration list for PBXNativeTarget "CotswoldCast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F6718592558453C00304186 /* Debug */,
@@ -561,20 +467,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F67185B2558453C00304186 /* Build configuration list for PBXNativeTarget "BrumcastTests" */ = {
+		8F67185B2558453C00304186 /* Build configuration list for PBXNativeTarget "CotswoldCastTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F67185C2558453C00304186 /* Debug */,
 				8F67185D2558453C00304186 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8F67185E2558453C00304186 /* Build configuration list for PBXNativeTarget "BrumcastUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8F67185F2558453C00304186 /* Debug */,
-				8F6718602558453C00304186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
