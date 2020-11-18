@@ -15,6 +15,8 @@ It will summarise the weather for easy reading.
 - also, weather icon name, weather description, cloud cover (%), wind speed, wind direction, rain probability, rain amount, isDaytime - done
 - basic unit tests for the above parsing - done
 
+- contact server and get back forecast
+
 - sideways scrolling display for a day
 - vertical scrolling for each day? or some kind of tabs to switch days?
 
@@ -23,6 +25,9 @@ It will summarise the weather for easy reading.
 
 - The json parsing was tricky on one bit. I realised it would waste too much time and wasn't essential to demonstrate my coding skills
 so I postponed that work.
+- improve the server error handling
+- handle day splitting more robustly
+- title for day groupings, change periods to just have hour as title
 
 ### Future work
 

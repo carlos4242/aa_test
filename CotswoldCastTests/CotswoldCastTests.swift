@@ -25,6 +25,7 @@ class CotswoldCastTests: XCTestCase {
         // assert
 
         XCTAssert(sample3hWeather.periodStart == Date(iso8601date: "2020-11-08T18:00:00+00:00"))
+        XCTAssert(sample3hWeather.periodStartDescription == "Sun, 8th December at 18:00")
 
         assert {
             sample3hWeather.averageTemp == 13.53

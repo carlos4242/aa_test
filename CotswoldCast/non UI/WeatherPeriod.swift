@@ -13,7 +13,7 @@
 
 import Foundation
 
-struct WeatherPeriod: Decodable {
+struct WeatherPeriod: Decodable, Identifiable {
     var periodStart: Date // 3h periods
     var averageTemp: Float
     var feelsLikeTemp: Float
@@ -31,6 +31,10 @@ struct WeatherPeriod: Decodable {
     var rainProbability: Float?
     var rainAmount: Float?
     var isDaytime: Bool
+
+    var id: Date {
+        periodStart
+    }
 
     enum CodingKeys: String, CodingKey {
         case periodStart = "dt"
