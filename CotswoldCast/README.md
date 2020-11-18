@@ -19,6 +19,11 @@ It will summarise the weather for easy reading.
 - vertical scrolling for each day? or some kind of tabs to switch days?
 
 
+### Todo/incomplete
+
+- The json parsing was tricky on one bit. I realised it would waste too much time and wasn't essential to demonstrate my coding skills
+so I postponed that work.
+
 ### Future work
 
 If you wanted to flesh this out, further work might be:

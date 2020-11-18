@@ -12,8 +12,9 @@
 		8F67183B2558453C00304186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F67183A2558453C00304186 /* Assets.xcassets */; };
 		8F67183E2558453C00304186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F67183D2558453C00304186 /* Preview Assets.xcassets */; };
 		8F6718492558453C00304186 /* CotswoldCastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6718482558453C00304186 /* CotswoldCastTests.swift */; };
-		8F6718692558457D00304186 /* WeatherReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6718682558457D00304186 /* WeatherReader.swift */; };
 		8F67188B25584E1B00304186 /* WeatherPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F67188A25584E1B00304186 /* WeatherPeriod.swift */; };
+		8F7D800C25653CF200148022 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D800B25653CF200148022 /* SampleData.swift */; };
+		8F7D801325653FF500148022 /* TestingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D801225653FF500148022 /* TestingExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +37,10 @@
 		8F6718442558453C00304186 /* CotswoldCastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CotswoldCastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F6718482558453C00304186 /* CotswoldCastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CotswoldCastTests.swift; sourceTree = "<group>"; };
 		8F67184A2558453C00304186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F6718682558457D00304186 /* WeatherReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReader.swift; sourceTree = "<group>"; };
 		8F6718892558486800304186 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8F67188A25584E1B00304186 /* WeatherPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPeriod.swift; sourceTree = "<group>"; };
+		8F7D800B25653CF200148022 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		8F7D801225653FF500148022 /* TestingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				8F6718482558453C00304186 /* CotswoldCastTests.swift */,
+				8F7D801225653FF500148022 /* TestingExtensions.swift */,
 				8F67184A2558453C00304186 /* Info.plist */,
 			);
 			path = CotswoldCastTests;
@@ -111,8 +114,8 @@
 		8F6718642558454B00304186 /* non UI */ = {
 			isa = PBXGroup;
 			children = (
-				8F6718682558457D00304186 /* WeatherReader.swift */,
 				8F67188A25584E1B00304186 /* WeatherPeriod.swift */,
+				8F7D800B25653CF200148022 /* SampleData.swift */,
 			);
 			path = "non UI";
 			sourceTree = "<group>";
@@ -216,10 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6718692558457D00304186 /* WeatherReader.swift in Sources */,
 				8F67188B25584E1B00304186 /* WeatherPeriod.swift in Sources */,
 				8F6718392558453B00304186 /* ContentView.swift in Sources */,
 				8F6718372558453B00304186 /* CotswoldCastApp.swift in Sources */,
+				8F7D800C25653CF200148022 /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7D801325653FF500148022 /* TestingExtensions.swift in Sources */,
 				8F6718492558453C00304186 /* CotswoldCastTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
