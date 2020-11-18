@@ -9,10 +9,21 @@ import SwiftUI
 
 @main
 struct CotswoldCastApp: App {
-    @State var weatherPeriods: [WeatherPeriod] = []
+    @ObservedObject var loader = WeatherLoader()
+
     var body: some Scene {
         WindowGroup {
-            ContentView(weatherPeriods)
+            if loader.loading {
+                Text("loading...")
+            } else if loader.showError {
+                Text("error getting weather data")
+            } else {
+                ContentView(loader.weatherPeriods)
+            }
         }
+    }
+
+    init() {
+        loader.load()
     }
 }

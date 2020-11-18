@@ -7,17 +7,6 @@
 
 import Foundation
 
-private struct WeatherDataContainer: Decodable {
-    var cod: String
-    var message: Int
-    var cnt: Int
-    var list: [WeatherPeriod]
-
-    enum CodingKeys: String, CodingKey {
-        case cod, message, cnt, list
-    }
-}
-
 extension WeatherPeriod {
     static var sample3hWeather: WeatherPeriod = {
         let sample3hWeatherData = Data(sample3hWeatherJson.utf8)
@@ -34,11 +23,8 @@ extension WeatherPeriod {
     static var sampleFullWeather: [WeatherPeriod] = {
         let sampleFullWeatherData = Data(fullWeatherDataJson.utf8)
 
-        let decoder = JSONDecoder()
-        decoder.dateDecodingStrategy = .secondsSince1970
         do {
-            let sampleFullWeatherContainer = try decoder.decode(WeatherDataContainer.self, from: sampleFullWeatherData)
-            return sampleFullWeatherContainer.list
+            return try weatherData(from: sampleFullWeatherData)
         } catch let error {
             fatalError("failed to get sample data")
         }

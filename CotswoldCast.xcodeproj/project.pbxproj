@@ -17,6 +17,7 @@
 		8F7D801325653FF500148022 /* TestingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D801225653FF500148022 /* TestingExtensions.swift */; };
 		8F7D80172565473B00148022 /* WeatherPeriodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D80162565473B00148022 /* WeatherPeriodView.swift */; };
 		8F7D801B256559F900148022 /* WeatherPeriod+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D801A256559F900148022 /* WeatherPeriod+Extension.swift */; };
+		8F7D801F2565860200148022 /* WeatherLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7D801E2565860200148022 /* WeatherLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8F7D801225653FF500148022 /* TestingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingExtensions.swift; sourceTree = "<group>"; };
 		8F7D80162565473B00148022 /* WeatherPeriodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPeriodView.swift; sourceTree = "<group>"; };
 		8F7D801A256559F900148022 /* WeatherPeriod+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WeatherPeriod+Extension.swift"; sourceTree = "<group>"; };
+		8F7D801E2565860200148022 /* WeatherLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				8F67188A25584E1B00304186 /* WeatherPeriod.swift */,
 				8F7D801A256559F900148022 /* WeatherPeriod+Extension.swift */,
 				8F7D800B25653CF200148022 /* SampleData.swift */,
+				8F7D801E2565860200148022 /* WeatherLoader.swift */,
 			);
 			path = "non UI";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				8F7D801B256559F900148022 /* WeatherPeriod+Extension.swift in Sources */,
 				8F6718392558453B00304186 /* ContentView.swift in Sources */,
 				8F6718372558453B00304186 /* CotswoldCastApp.swift in Sources */,
+				8F7D801F2565860200148022 /* WeatherLoader.swift in Sources */,
 				8F7D80172565473B00148022 /* WeatherPeriodView.swift in Sources */,
 				8F7D800C25653CF200148022 /* SampleData.swift in Sources */,
 			);

@@ -79,3 +79,23 @@ extension WeatherPeriod {
         return "\(weekday), \(dayDescription) \(month) at \(hour):00"
     }
 }
+
+extension WeatherPeriod {
+    static func weatherData(from data: Data) throws -> [WeatherPeriod] {
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .secondsSince1970
+        let sampleFullWeatherContainer = try decoder.decode(WeatherDataContainer.self, from: data)
+        return sampleFullWeatherContainer.list
+    }
+}
+
+private struct WeatherDataContainer: Decodable {
+    var cod: String
+    var message: Int
+    var cnt: Int
+    var list: [WeatherPeriod]
+
+    enum CodingKeys: String, CodingKey {
+        case cod, message, cnt, list
+    }
+}
