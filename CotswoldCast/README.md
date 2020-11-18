@@ -9,11 +9,11 @@ It will summarise the weather for easy reading.
 
 ### Ideas for first version
 
-- parse data for human consumption, map the open weather map data to a more human readable form
-- weather will be divided into 'period' structs, each mapped to a 3h period
-- the structs will hold: time, temperature, feels like, min and max and humidity
-- also, weather icon name, weather description, cloud cover (%), wind speed, wind direction, rain probability, rain amount, isDaytime
-- basic unit tests for the above parsing
+- parse data for human consumption, map the open weather map data to a more human readable form - done
+- weather will be divided into 'period' structs, each mapped to a 3h period - done
+- the structs will hold: time, temperature, feels like, min and max and humidity - done
+- also, weather icon name, weather description, cloud cover (%), wind speed, wind direction, rain probability, rain amount, isDaytime - done
+- basic unit tests for the above parsing - done
 
 - sideways scrolling display for a day
 - vertical scrolling for each day? or some kind of tabs to switch days?

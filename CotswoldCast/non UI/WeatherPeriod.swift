@@ -28,8 +28,8 @@ struct WeatherPeriod: Decodable {
     var weatherDescription: String = "light rain"
     var windSpeed: Float
     var windDirection: Float
-    var rainProbability: Float
-    var rainAmount: Float
+    var rainProbability: Float?
+    var rainAmount: Float?
     var isDaytime: Bool
 
     enum CodingKeys: String, CodingKey {
@@ -103,9 +103,11 @@ struct WeatherPeriod: Decodable {
         windSpeed = try windContainer.decode(Float.self, forKey: .windSpeed)
         windDirection = try windContainer.decode(Float.self, forKey: .windDirection)
 
-        let rainContainer = try container.nestedContainer(keyedBy: RainCodingKeys.self, forKey: .rain)
-        rainProbability = try container.decode(Float.self, forKey: .rainProbability)
-        rainAmount = try rainContainer.decode(Float.self, forKey: .rainAmount)
+        // TODO: fix this
+        if let rainContainer = try? container.nestedContainer(keyedBy: RainCodingKeys.self, forKey: .rain) {
+            rainProbability = try container.decode(Float.self, forKey: .rainProbability)
+            rainAmount = try rainContainer.decode(Float.self, forKey: .rainAmount)
+        }
 
         let sysContainer = try container.nestedContainer(keyedBy: SysCodingKeys.self, forKey: .sys)
         isDaytime = try sysContainer.decode(String.self, forKey: .isDaytime) == "d"
